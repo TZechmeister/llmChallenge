@@ -1,0 +1,102 @@
+# Project
+.env
+uv.lock
+
+# PyTest
+.pytest_cache
+
+#Python
+__pycache__/
+*py*v*env*/
+*.egg-info/
+
+#IDE
+.vscode/
+
+# Python files #
+################
+# meson build/installation directories
+build
+build-install
+# meson python output
+.mesonpy-native-file.ini
+# sphinx build directory
+_build
+# setup.py dist directory
+dist
+doc/build
+doc/docenv
+doc/cdoc/build
+# Egg metadata
+*.egg-info
+# The shelf plugin uses this dir
+./.shelf
+MANIFEST
+.cache
+pip-wheel-metadata
+.python-version
+poetry.lock
+.venv
+.ipynb_checkpoints
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.bz2
+*.bzip2
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tbz2
+*.tgz
+*.zip
+
+# Compiled source #
+###################
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.o.d
+*.py[ocd]
+*.so
+
+# Editor temporary/working/backup files #
+#########################################
+.#*
+[#]*#
+*~
+*$
+*.bak
+*.diff
+.idea/
+*.iml
+*.ipr
+*.iws
+*.org
+.project
+pmip
+*.rej
+.settings/
+.*.sw[nop]
+.sw[nop]
+*.tmp
+*.vim
+.vscode/*
+tags
+cscope.out
+# gnu global
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+.cache
+.mypy_cache/
+.tox
