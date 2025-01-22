@@ -1,6 +1,7 @@
 # Project
 .env
 uv.lock
+*.log
 
 # PyTest
 .pytest_cache
