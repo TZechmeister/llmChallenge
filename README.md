@@ -41,6 +41,9 @@ To run tox and pytest:
 uvx tox
 ```
 
+### Execution
+Run the develop.ipynb in notebooks folder.
+
 ### Task Description
 
 Develop a Python-based backend system that splits a large text document into
